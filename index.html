@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -13,19 +15,19 @@
       class="container min-h-screen bg-[url('/images/coverimg.jpg')] bg-center bg-cover min-w-full"
     >
       <div class="container">
-        <nav class="flex items-center px-28 py-5">
+        <nav class="flex items-center px-28 py-5 text-white">
           <ul class="flex-1 text-center">
             <li class="list-none inline-block px-10">
               <a
                 href="#"
-                class="text-white bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest font-medium"
+                class="bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest"
                 >HOME</a
               >
             </li>
             <li class="list-none inline-block px-10">
               <a
                 href="#"
-                class="text-white bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest font-medium"
+                class=" bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest"
                 >HOME</a
               >
             </li>
@@ -36,16 +38,16 @@
           <ul class="flex-1 text-center">
             <li class="list-none inline-block px-10">
               <a
-                href="#"
-                class="text-white bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest font-medium"
-                >HOME</a
+                href="cart.html"
+                class=" bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest"
+                >View Cart(1)</a
               >
             </li>
             <li class="list-none inline-block px-10">
               <a
                 href="#"
-                class="text-white bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest font-medium"
-                >HOME</a
+                class=" bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest"
+                >Support</a
               >
             </li>
           </ul>
@@ -53,8 +55,8 @@
       </div>
 
       <div class="container min-h-fit min-w-full grid grid-cols-2 gap-2">
-        <div class="intro-text text-white text-left px-28 py-20 w-[660px]">
-          <h1 class="text-6xl">Premium <span class="font-light">Dining<br />Delivered</span></h1>
+        <div class="intro-text text-left px-28 py-20 w-[660px]">
+          <h1 class="text-white text-6xl">Premium <span class="font-light">Dining<br />Delivered</span></h1>
           <p class="text-white text-sm py-3 ml-[5px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Exercitationem, quasi consectetur adipisicing elit.
@@ -175,12 +177,12 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-4 px-28">
+      <div class="grid grid-cols-4 gap-4 px-28">
         <div>
           <img src="/images/about-us.jpg" class="w-52" />
 
           <div class="flex py-1.5">
-            <h3 class="text-black font-semibold text-lg mr-5">
+            <h3 class="text-black font-semibold text-lg">
               Stir-fried Curry
             </h3>
             <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
@@ -224,7 +226,7 @@
           <img src="/images/about-us.jpg" class="w-52" />
 
           <div class="flex py-1.5">
-            <h3 class="text-black font-semibold text-lg mr-5">
+            <h3 class="text-black font-semibold text-lg">
               Stir-fried Curry
             </h3>
             <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
@@ -268,7 +270,7 @@
           <img src="/images/about-us.jpg" class="w-52" />
 
           <div class="flex py-1.5">
-            <h3 class="text-black font-semibold text-lg mr-5">
+            <h3 class="text-black font-semibold text-lg">
               Stir-fried Curry
             </h3>
             <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
@@ -312,7 +314,7 @@
           <img src="/images/about-us.jpg" class="w-52" />
 
           <div class="flex py-1.5">
-            <h3 class="text-black font-semibold text-lg mr-5">
+            <h3 class="text-black font-semibold text-lg">
               Stir-fried Curry
             </h3>
             <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
@@ -545,13 +547,26 @@
 
 
     <section class="contact h-fit   bg-black text-white">
-        <div class="grid grid-cols-4 gap-4 px-28 py-5 items-center">
+        <div class="px-28 py-5 items-center">
+
+          <div class="grid grid-cols-2 gap-4">
     <div>
         <img src="/images/logo1.png" class="w-20">
-        <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <p class="text-sm py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+
+    <div>
+      <h3 class="mt-5">Stay in touch!</h3>
+      <ul class="py-3">
+        <a href="#" class="text-3xl mr-3 hover:text-yellow-500 transition-all ease-in-out"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#" class="text-3xl mr-3 hover:text-yellow-500 transition-all ease-in-out"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#" class="text-3xl mr-3 hover:text-yellow-500 transition-all ease-in-out"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+        <a href="#" class="text-3xl mr-3 hover:text-yellow-500 transition-all ease-in-out"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </ul>
+    </div>
     </div>
     
-<div class="grid grid-cols-3 gap-72">
+<div class="py-20 grid grid-cols-3 gap-10">
     <div>
         <h3 class="underline decoration-3 font-semibold mb-2 w-40">Partner</h3>
         <ul>
@@ -660,8 +675,18 @@
         </ul>
       </div>
     </div>
+
+    <div class="flex items-center">
+      <h2 class="mr-3 font-semibold">Pay with</h2>
+      <a href="#"><img src="/images/visa_5968299.png" class="w-14"></a>
+      <a href="#"><img src="/images/mc.jpg" class="w-20"></a>
+      <a href="#"><img src="/images/paypal.png" class="w-10 mr-3"></a>
+      <a href="#"><img src="/images/discover.png" class="w-14"></a>
     </div>
-    <p class="w-full text-sm text-center text-white">@ 2023 Munch. All Rights Reserved by The Platform Digital
+
+
+    </div>
+    <p class="w-full py-10 text-sm text-center text-white">@ 2023 Munch. All Rights Reserved by The Platform Digital
         Network Limited.</p>
     </section>
     
