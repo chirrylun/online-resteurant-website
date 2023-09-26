@@ -1,50 +1,587 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
     <script defer src="code.js"></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="container min-h-screen bg-white min-w-full">
-        <div class="header container bg-white shadow-md shadow-dark-600">
-            <nav class="flex items-center px-28 py-5 text-yellow-500">
-                <ul class="flex-1 text-center">
-                    <li class="list-none inline-block px-10">
-                        <a href="index.html"
-                            class="bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest">HOME</a>
-                    </li>
-                    <li class="list-none inline-block px-10">
-                        <a href="#"
-                            class=" bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest">HOME</a>
-                    </li>
-                </ul>
-    
-                <img src="/images/logo1.png" class="w-32 cursor-pointer" />
-    
-                <ul class="flex-1 text-center">
-                    <li class="list-none inline-block px-10">
-                        <a href="#"
-                            class=" bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest">View
-                            Cart(1)</a>
-                    </li>
-                    <li class="list-none inline-block px-10">
-                        <a href="#"
-                            class=" bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest">Support</a>
-                    </li>
-                </ul>
-            </nav>
+      <div class="header container bg-white shadow-md shadow-dark-600">
+        <nav class="flex items-center px-28 py-5 text-yellow-500">
+          <ul class="flex-1 text-center">
+            <li class="list-none inline-block px-10">
+              <a
+                href="index.html"
+                class="bg-opacity-0 hover:bg-black hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest"
+                >HOME</a
+              >
+            </li>
+            <li class="list-none inline-block px-10">
+              <a
+                href="#"
+                class="bg-opacity-0 hover:bg-black hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest"
+                >HOME</a
+              >
+            </li>
+          </ul>
+
+          <img src="/images/logo1.png" class="w-32 cursor-pointer" />
+
+          <ul class="flex-1 text-center">
+            <li class="list-none inline-block px-10">
+              <a
+                href="#"
+                class="bg-opacity-0 hover:bg-black hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest"
+                >View Cart(1)</a
+              >
+            </li>
+            <li class="list-none inline-block px-10">
+              <a
+                href="#"
+                class="bg-opacity-0 hover:bg-black hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest"
+                >Support</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="top-sellers bg-white h-screen">
+        <div class="px-28 py-10 mt-10">
+          <h2 class="text-2xl font-semibold">Breakfasts</h2>
+          <p class="text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            incidunt, magnam.
+          </p>
         </div>
+
+        <div class="grid grid-cols-4 gap-4 px-28">
+          <div>
+            <img src="/images/about-us.jpg" class="w-52" />
+
+            <div class="flex py-1.5">
+              <h3 class="text-black font-semibold text-lg mr-10">Stir-fried Curry</h3>
+              <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
+            </div>
+
+            <div>
+              <p class="text-sm mb-1.5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit
+                corrupti repellat excepturi.
+              </p>
+            </div>
+
+            <div>
+              <ul class="flex">
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+              </ul>
+
+              <button
+                class="order-now bg-black hover:bg-yellow-500 text-white font-normal hover:text-black px-4 py-2 my-5 rounded-full transition-all ease-in-out duration-300 hover:tracking-widest"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img src="/images/about-us.jpg" class="w-52" />
+
+            <div class="flex py-1.5">
+              <h3 class="text-black font-semibold text-lg mr-10">Stir-fried Curry</h3>
+              <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
+            </div>
+
+            <div>
+              <p class="text-sm mb-1.5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit
+                corrupti repellat excepturi.
+              </p>
+            </div>
+
+            <div>
+              <ul class="flex">
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+              </ul>
+
+              <button
+                class="order-now bg-black hover:bg-yellow-500 text-white font-normal hover:text-black px-4 py-2 my-5 rounded-full transition-all ease-in-out duration-300 hover:tracking-widest"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img src="/images/about-us.jpg" class="w-52" />
+
+            <div class="flex py-1.5">
+              <h3 class="text-black font-semibold text-lg mr-10">Stir-fried Curry</h3>
+              <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
+            </div>
+
+            <div>
+              <p class="text-sm mb-1.5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit
+                corrupti repellat excepturi.
+              </p>
+            </div>
+
+            <div>
+              <ul class="flex">
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+              </ul>
+
+              <button
+                class="order-now bg-black hover:bg-yellow-500 text-white font-normal hover:text-black px-4 py-2 my-5 rounded-full transition-all ease-in-out duration-300 hover:tracking-widest"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img src="/images/about-us.jpg" class="w-52" />
+
+            <div class="flex py-1.5">
+              <h3 class="text-black font-semibold text-lg mr-10">Stir-fried Curry</h3>
+              <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
+            </div>
+
+            <div>
+              <p class="text-sm mb-1.5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit
+                corrupti repellat excepturi.
+              </p>
+            </div>
+
+            <div>
+              <ul class="flex">
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                </li>
+              </ul>
+
+              <button
+                class="order-now bg-black hover:bg-yellow-500 text-white font-normal hover:text-black px-4 py-2 my-5 rounded-full transition-all ease-in-out duration-300 hover:tracking-widest"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="grid grid-cols-4 gap-4 px-28 mt-10">
+            <div>
+                <img src="/images/about-us.jpg" class="w-52" />
+        
+                <div class="flex py-1.5">
+                    <h3 class="text-black font-semibold text-lg mr-10">Stir-fried Curry</h3>
+                    <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
+                </div>
+        
+                <div>
+                    <p class="text-sm mb-1.5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit
+                        corrupti repellat excepturi.
+                    </p>
+                </div>
+        
+                <div>
+                    <ul class="flex">
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+        
+                    <button
+                        class="order-now bg-black hover:bg-yellow-500 text-white font-normal hover:text-black px-4 py-2 my-5 rounded-full transition-all ease-in-out duration-300 hover:tracking-widest">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        
+            <div>
+                <img src="/images/about-us.jpg" class="w-52" />
+        
+                <div class="flex py-1.5">
+                    <h3 class="text-black font-semibold text-lg mr-10">Stir-fried Curry</h3>
+                    <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
+                </div>
+        
+                <div>
+                    <p class="text-sm mb-1.5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit
+                        corrupti repellat excepturi.
+                    </p>
+                </div>
+        
+                <div>
+                    <ul class="flex">
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+        
+                    <button
+                        class="order-now bg-black hover:bg-yellow-500 text-white font-normal hover:text-black px-4 py-2 my-5 rounded-full transition-all ease-in-out duration-300 hover:tracking-widest">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        
+            <div>
+                <img src="/images/about-us.jpg" class="w-52" />
+        
+                <div class="flex py-1.5">
+                    <h3 class="text-black font-semibold text-lg mr-10">Stir-fried Curry</h3>
+                    <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
+                </div>
+        
+                <div>
+                    <p class="text-sm mb-1.5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit
+                        corrupti repellat excepturi.
+                    </p>
+                </div>
+        
+                <div>
+                    <ul class="flex">
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+        
+                    <button
+                        class="order-now bg-black hover:bg-yellow-500 text-white font-normal hover:text-black px-4 py-2 my-5 rounded-full transition-all ease-in-out duration-300 hover:tracking-widest">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        
+            <div>
+                <img src="/images/about-us.jpg" class="w-52" />
+        
+                <div class="flex py-1.5">
+                    <h3 class="text-black font-semibold text-lg mr-10">Stir-fried Curry</h3>
+                    <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
+                </div>
+        
+                <div>
+                    <p class="text-sm mb-1.5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit
+                        corrupti repellat excepturi.
+                    </p>
+                </div>
+        
+                <div>
+                    <ul class="flex">
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+        
+                    <button
+                        class="order-now bg-black hover:bg-yellow-500 text-white font-normal hover:text-black px-4 py-2 my-5 rounded-full transition-all ease-in-out duration-300 hover:tracking-widest">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="grid grid-cols-4 gap-4 px-28 mt-10">
+            <div>
+                <img src="/images/about-us.jpg" class="w-52" />
+        
+                <div class="flex py-1.5">
+                    <h3 class="text-black font-semibold text-lg mr-10">Stir-fried Curry</h3>
+                    <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
+                </div>
+        
+                <div>
+                    <p class="text-sm mb-1.5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit
+                        corrupti repellat excepturi.
+                    </p>
+                </div>
+        
+                <div>
+                    <ul class="flex">
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+        
+                    <button
+                        class="order-now bg-black hover:bg-yellow-500 text-white font-normal hover:text-black px-4 py-2 my-5 rounded-full transition-all ease-in-out duration-300 hover:tracking-widest">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        
+            <div>
+                <img src="/images/about-us.jpg" class="w-52" />
+        
+                <div class="flex py-1.5">
+                    <h3 class="text-black font-semibold text-lg mr-10">Stir-fried Curry</h3>
+                    <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
+                </div>
+        
+                <div>
+                    <p class="text-sm mb-1.5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit
+                        corrupti repellat excepturi.
+                    </p>
+                </div>
+        
+                <div>
+                    <ul class="flex">
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+        
+                    <button
+                        class="order-now bg-black hover:bg-yellow-500 text-white font-normal hover:text-black px-4 py-2 my-5 rounded-full transition-all ease-in-out duration-300 hover:tracking-widest">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        
+            <div>
+                <img src="/images/about-us.jpg" class="w-52" />
+        
+                <div class="flex py-1.5">
+                    <h3 class="text-black font-semibold text-lg mr-10">Stir-fried Curry</h3>
+                    <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
+                </div>
+        
+                <div>
+                    <p class="text-sm mb-1.5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit
+                        corrupti repellat excepturi.
+                    </p>
+                </div>
+        
+                <div>
+                    <ul class="flex">
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+        
+                    <button
+                        class="order-now bg-black hover:bg-yellow-500 text-white font-normal hover:text-black px-4 py-2 my-5 rounded-full transition-all ease-in-out duration-300 hover:tracking-widest">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        
+            <div>
+                <img src="/images/about-us.jpg" class="w-52" />
+        
+                <div class="flex py-1.5">
+                    <h3 class="text-black font-semibold text-lg mr-10">Stir-fried Curry</h3>
+                    <p class="text-yellow-500 font-semibold text-lg">$20.99</p>
+                </div>
+        
+                <div>
+                    <p class="text-sm mb-1.5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit
+                        corrupti repellat excepturi.
+                    </p>
+                </div>
+        
+                <div>
+                    <ul class="flex">
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+        
+                    <button
+                        class="order-now bg-black hover:bg-yellow-500 text-white font-normal hover:text-black px-4 py-2 my-5 rounded-full transition-all ease-in-out duration-300 hover:tracking-widest">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+      </div>
     </section>
 
-    <section class="h-screen">
 
-    </section>
+
 
 
     
-</body>
+  </body>
 </html>
