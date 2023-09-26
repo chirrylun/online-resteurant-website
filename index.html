@@ -2,12 +2,15 @@
 <html lang="en">
   <head>
     <link href="/dist/output.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css"
+    />
   </head>
 
   <body>
     <section
-      class="container min-h-screen bg-[url('/images/cover.jpg')] bg-center bg-cover min-w-full"
+      class="container min-h-screen bg-[url('/images/coverimg.jpg')] bg-center bg-cover min-w-full"
     >
       <div class="container">
         <nav class="flex items-center px-28 py-5">
@@ -15,14 +18,14 @@
             <li class="list-none inline-block px-10">
               <a
                 href="#"
-                class="text-white bg-opacity-0 hover:bg-black hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest font-medium"
+                class="text-white bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest font-medium"
                 >HOME</a
               >
             </li>
             <li class="list-none inline-block px-10">
               <a
                 href="#"
-                class="text-white bg-opacity-0 hover:bg-black hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest font-medium"
+                class="text-white bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest font-medium"
                 >HOME</a
               >
             </li>
@@ -34,14 +37,14 @@
             <li class="list-none inline-block px-10">
               <a
                 href="#"
-                class="text-white bg-opacity-0 hover:bg-black hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest font-medium"
+                class="text-white bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest font-medium"
                 >HOME</a
               >
             </li>
             <li class="list-none inline-block px-10">
               <a
                 href="#"
-                class="text-white bg-opacity-0 hover:bg-black hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest font-medium"
+                class="text-white bg-opacity-0 hover:bg-yellow-500 hover:bg-opacity-1 px-5 py-1.5 rounded-full transition-all ease-in-out duration-300 tracking-widest font-medium"
                 >HOME</a
               >
             </li>
@@ -50,21 +53,73 @@
       </div>
 
       <div class="container min-h-fit min-w-full grid grid-cols-2 gap-2">
-        <div class="intro-text text-white text-left px-28 py-20">
-            <h1 class="text-6xl">Premium Dining<br>Delivered</h1>
-            <button class="order-now bg-black text-white px-4 py-2 my-5 rounded-full transition-all ease-in-out duration-300 hover:tracking-widest ">Order Now</button>
+        <div class="intro-text text-white text-left px-28 py-20 w-[660px]">
+          <h1 class="text-6xl">Premium Dining<br />Delivered</h1>
+          <p class="text-white text-sm py-3 ml-[5px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quasi consectetur adipisicing elit.</p>
+          <button
+            class="order-now bg-black hover:bg-yellow-500 text-white font-normal hover:text-black px-4 py-2 my-5 rounded-full transition-all ease-in-out duration-300 hover:tracking-widest"
+          >
+            Order Now
+          </button>
         </div>
 
         <div class="social-icons py-[65px] ml-[590px]">
-            <ul>
-                <a href="#" class="text-3xl block py-2"><i class="fa fa-instagram text-white" aria-hidden="true"></i></a>
-                <a href="#" class="text-3xl block py-2"><i class="fa fa-facebook text-white" aria-hidden="true"></i></a>
-                <a href="#" class="text-3xl block py-2"><i class="fa fa-twitter text-white" aria-hidden="true"></i></a>
-            </ul>
+          <ul>
+            <a href="#" class="text-3xl block py-2"
+              ><i
+                class="fa fa-instagram text-white hover:text-yellow-500 transition-all ease-in-out duration-300 hover:-translate-x-1"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a href="#" class="text-3xl block py-2"
+              ><i
+                class="fa fa-facebook text-white hover:text-yellow-500 transition-all ease-in-out duration-300 hover:-translate-x-1"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a href="#" class="text-3xl block py-2"
+              ><i
+                class="fa fa-twitter text-white hover:text-yellow-500 transition-all ease-in-out duration-300 hover:-translate-x-1"
+                aria-hidden="true"
+              ></i
+            ></a>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="container h-screen bg-black">
+        <div class="items-center px-28 py-10">
+            <h2 class="font-medium text-2xl text-white">Breakfast</h2>
+            <p class="font-normal text-sm text-white">8:00am-11:30am</p>
+        </div>
+
+        <div class="breakfast-menu-items text-white grid grid-cols-4 gap-1">
+
+            <div class="flex items-center bg-white mr-10 rounded-full px-4 py-1 hover:-translate-y-2 ease-in-out duration-300">
+                <img src="/images/breakfast-item1.jpg" class="w-10 mr-3 ">
+                <h3 class="text-black text-base font-semibold">Ham & String Sidedishes</h3>
+            </div>
+
+            <div class="flex items-center bg-white mr-10 rounded-full px-4 py-1 hover:-translate-y-2 ease-in-out duration-300">
+                <img src="/images/breakfast-item1.jpg" class="w-10 mr-3 ">
+                <h3 class="text-black text-base font-semibold">Ham & String Sidedishes</h3>
+            </div>
+
+            <div class="flex items-center bg-white mr-10 rounded-full px-4 py-1 hover:-translate-y-2 ease-in-out duration-300">
+                <img src="/images/breakfast-item1.jpg" class="w-10 mr-3 ">
+                <h3 class="text-black text-base font-semibold">Ham & String Sidedishes</h3>
+            </div>
+
+            <div class="flex items-center bg-white mr-10 rounded-full px-4 py-1 hover:-translate-y-2 ease-in-out duration-300">
+                <img src="/images/breakfast-item1.jpg" class="w-10 mr-3 ">
+                <h3 class="text-black text-base font-semibold">Ham & String Sidedishes</h3>
+            </div>
+
+            
 
         </div>
 
-      </div>
     </section>
   </body>
 </html>
