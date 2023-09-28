@@ -1,13 +1,13 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html","./cart.html"],
+  content: ["./index.html", "./cart.html"],
   theme: {
-    extend: {
-      fontFamily: {
-        'serif': ['Playfair Display']
-      }
+    borderWidth: {
+      DEFAULT: '1px',
+      0: '0px',
+      2: '2px',
+      4: '4px',
+      8: '8px',
     },
   },
   plugins: [],
 }
-

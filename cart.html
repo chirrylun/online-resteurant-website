@@ -17,7 +17,7 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="container h-fit bg-white min-w-full">
+    <section class="container h-fit bg-white min-w-full border-0">
       <div class="header container bg-white shadow-md shadow-dark-600">
         <nav class="flex items-center px-28 py-5 text-yellow-500">
           <ul class="flex-1 text-center">
@@ -37,7 +37,7 @@
             </li>
           </ul>
 
-          <img src="/images/logo1.png" class="w-32 cursor-pointer" />
+          <img src="/images/logo1.png" class="w-32 cursor-pointer border-default" />
 
           <ul class="flex-1 text-center">
             <li class="list-none inline-block px-10">
@@ -63,17 +63,27 @@
     <!---cart item details-->
 
 
-    <section class="cart">
-        <div class="small-container px-28">
-          <table>
+    <section class="cart border-0">
+        <div class="small-container px-28 py-20">
+          <table class="w-full">
             <tr>
-              <th>Product</th>
-              <th>Quantity</th>
-              <th>Subtotal</th>
+              <th class="text-left bg-yellow-500 px-2 py-2">Product</th>
+              <th class="text-left bg-yellow-500 px-2 py-2">Quantity</th>
+              <th class="text-left bg-yellow-500 px-2 py-2">Subtotal</th>
             </tr>
             <tr>
-              <td class="text-red-500">Product name</td>
-              <td><input class="border-4 border-black" type="number" value="1"></td>
+              <td class="px-3 py-2">
+                <div class="cart-info flex flex-wrap items-center">
+                  <img class="w-16" src="/images/about-us.jpg">
+                  <div>
+                    <p>Spicy Curry</p>
+                    <small>Price: $50.00</small>
+                    <a href="#">Remove</a>
+                  </div>
+
+                </div>
+              </td>
+              <td><input class="border-2 border-black" type="number" value="1"></td>
               <td>$50.00</td>
             </tr>
           </table>
